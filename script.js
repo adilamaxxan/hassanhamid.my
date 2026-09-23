@@ -63,7 +63,7 @@ const translations = {
     portraitLabel: "POTRET",
     altHero: "Hassan Hamid duduk di meja dalam studio kreatif sambil memegang stylus, dikelilingi buku, komputer riba dan karya seni berbingkai",
     altStudy: "Hassan Hamid di meja kayu dalam bilik bacaan klasik, dengan buku, lampu meja dan khat Islam di belakangnya",
-    altPortrait: "Gambar Hassan Hamid memakai songkok dan jaket bersulam corak batik",
+    altPortrait: "Hassan Hamid berdiri di bilik bacaan dengan rak buku dan glob, memakai songkok dan jaket bercorak batik",
 
     labelStore: "THE STORE", storeTitle: "A message can live on paper, on a screen — or in your hands.",
     storeText: "Karya digital boleh dikembangkan menjadi wallpaper, magnet, mousepad, keychain, sticker, mug, T-shirt, poster dan cenderamata.",
@@ -129,7 +129,7 @@ const translations = {
     portraitLabel: "PORTRAIT",
     altHero: "Hassan Hamid seated at his desk in a creative studio, holding a stylus, surrounded by books, a laptop and framed artwork",
     altStudy: "Hassan Hamid at a wooden desk in a classic study, with books, a desk lamp and Islamic calligraphy behind him",
-    altPortrait: "Photograph of Hassan Hamid wearing a songkok and a batik-trimmed jacket",
+    altPortrait: "Hassan Hamid standing in a study with bookshelves and a globe, wearing a songkok and a batik-trimmed jacket",
 
     labelStore: "THE STORE", storeTitle: "A message can live on paper, on a screen — or in your hands.",
     storeText: "Digital works can become wallpapers, magnets, mousepads, keychains, stickers, mugs, T-shirts, posters and souvenirs.",

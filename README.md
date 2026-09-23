@@ -41,7 +41,7 @@ The design direction is **approved**: editorial, classic, digital gallery, perso
 └── assets/
     ├── hassan-creative-studio.png / .webp   Hero image
     ├── hassan-classic-study.png / .webp     Gallery (large tile)
-    ├── hassan-hamid.jpg / .webp             Gallery (portrait tile)
+    ├── hassan-portrait.png / .webp          Gallery (portrait tile)
     ├── og-image.jpg                         Social sharing preview (1200×630)
     └── favicon.svg
 ```
