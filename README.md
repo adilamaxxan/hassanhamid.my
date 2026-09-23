@@ -92,7 +92,7 @@ Do not upload `README.md`, `.git/` or `.gitignore`. They are harmless, but not n
 - **Bahasa Melayu text** appears in `index.html` *and* in `translations.ms` in `script.js`. **English text** is only in `translations.en`.
 - When you change a translated line, update **both** languages in `script.js`, plus the BM text in `index.html`. The HTML copy is what visitors see before JavaScript runs, and what search engines read.
 - Headings with line breaks or italics use simple HTML inside the translation strings, for example `"Line one<br><em>Line two</em>"`.
-- **Contact email:** `hello@hassanhamid.my` is a **temporary placeholder**. Replace it in `index.html` in both the `href="mailto:..."` and the visible text.
+- **Contact email:** currently `tokbabah007@gmail.com`. To change it, edit `index.html` in both the `href="mailto:..."` and the visible text.
 
 ## 9. How to add images
 
