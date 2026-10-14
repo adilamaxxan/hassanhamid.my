@@ -28,7 +28,7 @@ Rules:
 
 | Project | Domain | Type | Current repo | Forge site (AKSPACE) | AK Creative status |
 | --- | --- | --- | --- | --- | --- |
-| Sukreen Hana, academic website | sukreenhana.my | Static website | `adilamaxxan/hassanhamid.my` (folder `sukreenhana/`) | Not created yet | **Move first** → `AKCREATIVE-DESIGN/sukreenhana` |
+| Sukreen Hana, academic website | sukreenhana.my | Static website | `AKCREATIVE-DESIGN/sukreenhana` (main) | Not created yet | **Moved ✓** |
 | Hassan Hamid | hassanhamid.my | Static website | `adilamaxxan/hassanhamid.my` | Live | Can be moved later |
 | Haliza Hamid | halizahamid.my | PHP website | (no repo in Forge) | Live | Needs a repo |
 | AK Work System | app.akworksystem.my | System | `adilamaxxan/property-agent-os` | Live | Can be moved later |
@@ -40,13 +40,13 @@ Rules:
 
 ### GitHub
 - [ ] github.com → avatar → **Your organizations → New organization** → **Free** → name `AKCREATIVE-DESIGN` (done ✓).
-- [ ] In the org, create an empty repo: **`sukreenhana`** (Private). Do not tick "Add README".
-- [ ] Install the Claude GitHub App on the `AKCREATIVE-DESIGN` org: https://github.com/apps/claude/installations/select_target
-- [ ] Reconnect Claude: https://claude.ai/connect-github
+- [x] In the org, create an empty repo: **`sukreenhana`** (Private). Do not tick "Add README".
+- [x] Install the Claude GitHub App on the `AKCREATIVE-DESIGN` org: https://github.com/apps/claude/installations/select_target
+- [x] Reconnect Claude: https://claude.ai/connect-github
 - [ ] In Forge → Account → **Source Control** → GitHub → make sure the `AKCREATIVE-DESIGN` org is granted access.
 
 ### Moving the Sukreen Hana website
-- [ ] Run `AKCREATIVE/pindah-sukreenhana.sh` (or ask Claude to do it). This copies the `sukreenhana/` folder into the root of the `AKCREATIVE-DESIGN/sukreenhana` repo and pushes it to `main`.
+- [x] Run `AKCREATIVE/pindah-sukreenhana.sh` (or ask Claude to do it). This copies the `sukreenhana/` folder into the root of the `AKCREATIVE-DESIGN/sukreenhana` repo and pushes it to `main`.
 
 ### Forge (server AKSPACE, no new server needed)
 - [ ] AKSPACE → **New site → Static HTML**
