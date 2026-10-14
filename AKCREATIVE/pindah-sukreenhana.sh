@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Copy the sukreenhana/ folder into the akcreative/sukreenhana repo (files at the root).
-# Prerequisites: the akcreative org and an EMPTY sukreenhana repo exist, and you have push access.
+# Copy the sukreenhana/ folder into the AKCREATIVE-DESIGN/sukreenhana repo (files at the root).
+# Prerequisites: the AKCREATIVE-DESIGN org and an EMPTY sukreenhana repo exist, and you have push access.
 # Usage: bash AKCREATIVE/pindah-sukreenhana.sh [org] [repo]
 set -euo pipefail
-ORG="${1:-akcreative}"
+ORG="${1:-AKCREATIVE-DESIGN}"
 REPO="${2:-sukreenhana}"
 SRC="$(cd "$(dirname "$0")/../sukreenhana" && pwd)"
 TMP="$(mktemp -d)"

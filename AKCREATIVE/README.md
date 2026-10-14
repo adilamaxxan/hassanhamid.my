@@ -2,7 +2,7 @@
 
 The hub for every project AK Creative builds: websites, media, systems and apps.
 
-- **GitHub:** `github.com/akcreative` (organization, Free plan). *Not created yet. See section 3.*
+- **GitHub:** `github.com/AKCREATIVE-DESIGN` (organization, Free plan). *Created ✓*
 - **Server:** Forge → organization **AK THEORY** → server **AKSPACE** (Singapore, Ubuntu 24.04, PHP 8.4).
 - **Domains:** Exabytes (billing.exabytes.my).
 
@@ -10,14 +10,14 @@ The hub for every project AK Creative builds: websites, media, systems and apps.
 
 ## 1. Structure
 
-Each project gets its own repo under the `akcreative` org. Repo names follow this pattern:
+Each project gets its own repo under the `AKCREATIVE-DESIGN` org. Repo names follow this pattern:
 
 | Category | Repo name pattern | Example |
 | --- | --- | --- |
-| Website | `<domain without .my>` | `akcreative/sukreenhana` |
-| System / web app | `<name>-system` or `<name>-app` | `akcreative/akwork-system` |
-| API / backend | `<name>-api` | `akcreative/aurafara-api` |
-| Media (logos, video, images) | `<client>-media` | `akcreative/sukreenhana-media` |
+| Website | `<domain without .my>` | `AKCREATIVE-DESIGN/sukreenhana` |
+| System / web app | `<name>-system` or `<name>-app` | `AKCREATIVE-DESIGN/akwork-system` |
+| API / backend | `<name>-api` | `AKCREATIVE-DESIGN/aurafara-api` |
+| Media (logos, video, images) | `<client>-media` | `AKCREATIVE-DESIGN/sukreenhana-media` |
 
 Rules:
 - Branch `main` = live. Forge deploys automatically from `main`.
@@ -28,7 +28,7 @@ Rules:
 
 | Project | Domain | Type | Current repo | Forge site (AKSPACE) | AK Creative status |
 | --- | --- | --- | --- | --- | --- |
-| Sukreen Hana, academic website | sukreenhana.my | Static website | `adilamaxxan/hassanhamid.my` (folder `sukreenhana/`) | Not created yet | **Move first** → `akcreative/sukreenhana` |
+| Sukreen Hana, academic website | sukreenhana.my | Static website | `adilamaxxan/hassanhamid.my` (folder `sukreenhana/`) | Not created yet | **Move first** → `AKCREATIVE-DESIGN/sukreenhana` |
 | Hassan Hamid | hassanhamid.my | Static website | `adilamaxxan/hassanhamid.my` | Live | Can be moved later |
 | Haliza Hamid | halizahamid.my | PHP website | (no repo in Forge) | Live | Needs a repo |
 | AK Work System | app.akworksystem.my | System | `adilamaxxan/property-agent-os` | Live | Can be moved later |
@@ -39,18 +39,18 @@ Rules:
 ## 3. Setup checklist (do these yourself)
 
 ### GitHub
-- [ ] github.com → avatar → **Your organizations → New organization** → **Free** → name `akcreative`.
+- [ ] github.com → avatar → **Your organizations → New organization** → **Free** → name `AKCREATIVE-DESIGN` (done ✓).
 - [ ] In the org, create an empty repo: **`sukreenhana`** (Private). Do not tick "Add README".
-- [ ] Install the Claude GitHub App on the `akcreative` org: https://github.com/apps/claude/installations/select_target
+- [ ] Install the Claude GitHub App on the `AKCREATIVE-DESIGN` org: https://github.com/apps/claude/installations/select_target
 - [ ] Reconnect Claude: https://claude.ai/connect-github
-- [ ] In Forge → Account → **Source Control** → GitHub → make sure the `akcreative` org is granted access.
+- [ ] In Forge → Account → **Source Control** → GitHub → make sure the `AKCREATIVE-DESIGN` org is granted access.
 
 ### Moving the Sukreen Hana website
-- [ ] Run `AKCREATIVE/pindah-sukreenhana.sh` (or ask Claude to do it). This copies the `sukreenhana/` folder into the root of the `akcreative/sukreenhana` repo and pushes it to `main`.
+- [ ] Run `AKCREATIVE/pindah-sukreenhana.sh` (or ask Claude to do it). This copies the `sukreenhana/` folder into the root of the `AKCREATIVE-DESIGN/sukreenhana` repo and pushes it to `main`.
 
 ### Forge (server AKSPACE, no new server needed)
 - [ ] AKSPACE → **New site → Static HTML**
-  - Repository: `akcreative/sukreenhana`, branch `main`
+  - Repository: `AKCREATIVE-DESIGN/sukreenhana`, branch `main`
   - Custom domain: `sukreenhana.my`
   - Web directory: `/` (the files are now at the repo root)
 - [ ] Domains tab: add `www.sukreenhana.my`, then turn on **Let's Encrypt SSL** for both.
@@ -62,4 +62,4 @@ Rules:
 
 ## 4. Moving existing projects (optional, one at a time)
 
-On GitHub: repo → **Settings → Danger Zone → Transfer ownership** → `akcreative`. GitHub redirects the old URL automatically, but update the repo name in Forge anyway.
+On GitHub: repo → **Settings → Danger Zone → Transfer ownership** → `AKCREATIVE-DESIGN`. GitHub redirects the old URL automatically, but update the repo name in Forge anyway.
