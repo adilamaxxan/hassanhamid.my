@@ -28,7 +28,7 @@ Rules:
 
 | Project | Domain | Type | Current repo | Forge site (AKSPACE) | AK Creative status |
 | --- | --- | --- | --- | --- | --- |
-| Sukreen Hana, academic website | sukreenhana.my | Static website | `AKCREATIVE-DESIGN/sukreenhana` (main) | Not created yet | **Moved ✓** |
+| Sukreen Hana, academic website | sukreenhana.my | Static website | `AKCREATIVE-DESIGN/sukreenhana` (main) | Live, HTTPS (Let's Encrypt) | **Moved ✓ · Live ✓** |
 | Hassan Hamid | hassanhamid.my | Static website | `adilamaxxan/hassanhamid.my` | Live | Can be moved later |
 | Haliza Hamid | halizahamid.my | PHP website | (no repo in Forge) | Live | Needs a repo |
 | AK Work System | app.akworksystem.my | System | `adilamaxxan/property-agent-os` | Live | Can be moved later |
