@@ -28,7 +28,7 @@ Rules:
 
 | Project | Domain | Type | Current repo | Forge site (AKSPACE) | AK Creative status |
 | --- | --- | --- | --- | --- | --- |
-| Sukreen Hana, academic website | sukreenhana.my | Static website | `AKCREATIVE-DESIGN/sukreenhana` (main) | Live, HTTPS (Let's Encrypt) | **Moved ✓ · Live ✓** |
+| Sukreen Hana, academic website | sukreenhana.my | Static website (EN \| BM) | `AKCREATIVE-DESIGN/sukreenhana` (main) | Live, HTTPS (Let's Encrypt), push-to-deploy | **Moved ✓ · Live ✓** · see that repo's README for the changelog |
 | Hassan Hamid | hassanhamid.my | Static website | `adilamaxxan/hassanhamid.my` | Live | Can be moved later |
 | Haliza Hamid | halizahamid.my | PHP website | (no repo in Forge) | Live | Needs a repo |
 | AK Work System | app.akworksystem.my | System | `adilamaxxan/property-agent-os` | Live | Can be moved later |
@@ -63,3 +63,8 @@ Rules:
 ## 4. Moving existing projects (optional, one at a time)
 
 On GitHub: repo → **Settings → Danger Zone → Transfer ownership** → `AKCREATIVE-DESIGN`. GitHub redirects the old URL automatically, but update the repo name in Forge anyway.
+
+## 5. Notes
+
+- The `sukreenhana/` folder in `adilamaxxan/hassanhamid.my` is the **old first version (v1)**. It is kept only as history. The live source of truth is `AKCREATIVE-DESIGN/sukreenhana`.
+- The improvement plan for sukreenhana.my (on hold, waiting for material) is in `AKCREATIVE/sukreenhana-roadmap.md`.

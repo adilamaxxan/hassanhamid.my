@@ -2,7 +2,7 @@
 
 Status: **on hold**, waiting for material from Dr Sukreen Hana.
 Repo: `AKCREATIVE-DESIGN/sukreenhana` (branch `main` = live, auto-deploys through Forge AKSPACE).
-Already done: v2 design, EN | BM, favicon, WhatsApp preview image, HTTPS.
+Already done: v2 design, EN | BM, favicon, WhatsApp preview image, HTTPS, brighter text contrast, colourful Impact numbers, "Let's collaborate" button, "Supervision" nav item.
 
 ## Material to collect from Dr Sukreen Hana
 
